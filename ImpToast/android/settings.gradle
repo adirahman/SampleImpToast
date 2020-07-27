@@ -1,0 +1,11 @@
+rootProject.name = 'ImpToast'
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(rootProject.projectDir, '../../react-native-toast/android')
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(rootProject.projectDir, '../../react-native-toast/android')
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(rootProject.projectDir, '../../react-native-toast/android')
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(rootProject.projectDir, '../../react-native-toast/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
